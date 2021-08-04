@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/clebertonf/TypeScript-estudos/issues"
   },
-  "homepage": "https://github.com/clebertonf/TypeScript-estudos#readme"
+  "homepage": "https://github.com/clebertonf/TypeScript-estudos#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
