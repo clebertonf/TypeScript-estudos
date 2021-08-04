@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/clebertonf/TypeScript-estudos#readme",
   "devDependencies": {
+    "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/node": "^16.4.11"
   }
 }
