@@ -11,9 +11,11 @@ console.log(ObjectA);
 
 // inserindo os tipos e cahve opcional
 const ObjectB: {
-    chaveA: string,
-    chaveB: number
-    chaveC?: string
+    chaveA: string;
+    chaveB: number;
+    chaveC?: string;
+    [key: string]: unknown; // para adicionar mais chaves em tempo de execução crie um index
+                            // (cria um objeto totalmente aberto)
 } = {
   chaveA: 'Valor1',
   chaveB: 3,
@@ -21,9 +23,9 @@ const ObjectB: {
 
 ObjectB.chaveC = 'Carvalho';
 
+ObjectB.chaveF = 'aaaa'; // chave nva criada
 console.log(ObjectB);
-
 //  Ha duas opçoes na criação de objetos, a primeira é fazer
-//  um objeto com o desing mais bem feito, já tipado desde
+//  um objeto com o design mais bem feito, já tipado desde
 //  o inicio. Ou fazer um objeto mais aberto para modificações
 //  colocando chaves opcionais.
