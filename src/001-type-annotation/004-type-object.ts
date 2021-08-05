@@ -11,7 +11,7 @@ console.log(ObjectA);
 
 // inserindo os tipos e cahve opcional
 const ObjectB: {
-    chaveA: string;
+    readonly chaveA: string; // readonly somente leitura
     chaveB: number;
     chaveC?: string;
     [key: string]: unknown; // para adicionar mais chaves em tempo de execução crie um index
