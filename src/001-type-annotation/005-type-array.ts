@@ -13,3 +13,9 @@ function concatStrings(...args: string[]): string {
 
 console.log(multiplyValues(1, 5, 2, 3));
 console.log(concatStrings('Ola', 'Mundo!'));
+
+const array2: readonly string[] = ['Seja', 'Bem', 'Vindo'];
+const array3: Array<number> = [1, 5, 9];
+
+console.log(array2);
+console.log(array3);
