@@ -28,4 +28,4 @@ console.log(ObjectB);
 //  Ha duas opçoes na criação de objetos, a primeira é fazer
 //  um objeto com o design mais bem feito, já tipado desde
 //  o inicio. Ou fazer um objeto mais aberto para modificações
-//  colocando chaves opcionais.
+//  colocando chaves opcionais ou usando index.
