@@ -1,10 +1,11 @@
 // recurso onde pode ser passado um ou mais tipos para uma variavel, função etc.
 
-const yourAdress: string | number = 10; // pode recebr uma string ou numero
+const yourAdress: string | number = 10; // pode receber uma string ou numero
 
 console.log(yourAdress);
 
-function verifyNumber(adress?: number): boolean {
+// retono da função pode ser bollean ou unknow
+function verifyNumber(adress?: number): boolean | unknown {
   if (adress === 10) return true;
   return false;
 }
