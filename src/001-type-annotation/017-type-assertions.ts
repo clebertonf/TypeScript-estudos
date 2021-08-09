@@ -18,3 +18,7 @@ body2.style.background = 'red';
 
 const body3 = document.querySelector('body') as HTMLBodyElement;
 body3.style.background = 'red';
+
+// HTMLInputElement
+const input = document.getElementById('input-name') as HTMLInputElement;
+input.value = 'Seu nome';
